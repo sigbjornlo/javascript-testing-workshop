@@ -1,6 +1,7 @@
 import { getUser } from './store';
 
-const API_ROOT = 'https://testing-js-backend.herokuapp.com';
+const API_ROOT =
+  process.env.REACT_APP_API_ROOT || 'https://testing-js-backend.herokuapp.com';
 
 const encode = encodeURIComponent;
 

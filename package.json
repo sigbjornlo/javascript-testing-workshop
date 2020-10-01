@@ -36,6 +36,7 @@
   },
   "scripts": {
     "start": "cross-env PORT=4100 react-scripts start",
+    "local": "cross-env PORT=4100 REACT_APP_API_ROOT=http://localhost:8000 react-scripts start",
     "build": "react-scripts build",
     "test": "cross-env PORT=4100 react-scripts test --env=jsdom",
     "cypress": "cypress open",
